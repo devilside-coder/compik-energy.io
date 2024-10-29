@@ -1,0 +1,87 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #003366; /* Темно-синий */
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 40px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    background-color: #003366;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+footer a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+
+.centered-text {
+    text-align: center; /* Вирівнює текст по центру */
+    margin: 0 auto; /* Центрує блок, якщо в нього є ширина */
+}
+
+
+body {
+    background-image: url('https://bannerplus.ru/files/img/pics/kartinki-dlia-fona-saita/kartinki-dlia-fona-saita-0.webp'); /* Путь к изображению */
+    background-size: cover; /* Чтобы изображение заполнило весь фон */
+    background-position: center; /* Центрировать изображение */
+}
+
+
+.back-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff; /* Цвет фона */
+    color: #ffffff; /* Цвет текста */
+    text-decoration: none;
+    border-radius: 5px; /* Скругленные углы */
+    font-weight: bold;
+    transition: background-color 0.3s ease; /* Плавный переход цвета */
+  }
+  
+  .back-button:hover {
+    background-color: #0056b3; /* Цвет при наведении */
+  }
+  
